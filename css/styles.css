@@ -1,0 +1,86 @@
+
+
+body{
+  background-color: hsl(233, 47%, 7%);
+  font-size: 15px;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  /* text-align: center; */
+}
+h1{
+   font-weight: 700;
+   color: hsl(0, 0%, 100%);
+}
+p{
+
+  color: hsla(0, 0%, 100%, 0.6);
+  font-weight: 700;
+  font-size: 13px;
+  /* font-size: .7em; */
+}
+em{
+  font-weight: 700;
+  font-style: normal;
+  /* font-size: 2em; */
+  color: hsl(277, 64%, 61%);
+}
+.contain-box{
+    position: relative;
+    margin: 10% auto 0 auto;
+    width:62rem;
+    height: 25rem;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 0.5rem;
+}
+.text-box{
+  display: inline-block;
+  width: 50%;
+  height: 25rem;
+
+  /* background-color:  hsla(0, 0%, 100%, 0.75); */
+  /* display: inline; */
+}
+.img-box{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 25rem;
+  background-image: url("../images/image-header-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 0.5rem 0.5rem 0
+}
+.img-main{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 25rem;
+  background-color: hsl(277, 112%, 40%);
+  opacity: 0.3;
+  border-radius: 0 0.5rem 0.5rem 0
+}
+.text{
+
+  margin: 0 auto 0 auto;
+  width: 65%;
+    margin-top: 60px;
+}
+.table-con{
+
+    margin-top: 80px;
+
+}
+.font-t1{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.font-t2{
+  color: hsla(0, 0%, 100%, 0.6);
+  font-weight: 700;
+  font-size: .7em;
+  padding-right: 50px;
+
+  /* font-weight: bold; */
+}
